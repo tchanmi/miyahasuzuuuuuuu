@@ -74,7 +74,7 @@ li {
 }
 
 .header-inner {
-  padding: 0 40px;
+  padding:40px;
   background-color:rgb(255, 245, 238,.8);
   border-radius: 10px;
 }
