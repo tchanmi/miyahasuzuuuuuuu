@@ -176,16 +176,50 @@
       <!-- /about -->
 
       <!-- contact -->
-      <section class="contact section" id="contact">
+     <section class="contact section" id="contact">
         <div class="inner">
           <h2 class="title">contact</h2>
           <p class="lead">
-            お問い合わせは、<br class="sp-only">メールにてお願いいたします。
-          </p>
-          <div class="contact-list">
-           
-            <span class="contact-item">mitsuedesuga@gmail.com</span>
+            お問い合わせは、<br class="sp-only">以下のフォームよりお願い申し上げます。<br><span class="note-requird">※必須</span>がついている項目は必ずご入力お願いします。</p>
+
+          <div class="contact-form">
+               <div class="form-item">
+                   <p class="form-label">
+                    <span class="norequird">御社名</span>
+                   </p>
+                   <input type="text" class="form-item-input" placeholder="例）株式会社東京">
+                </div>
+                <div class="form-item">
+                   <p class="form-label">
+                       <span class="requird">※必須</span>ご氏名
+                   </p>
+                   <input type="text" class="form-item-input" placeholder="例）令和太郎">
+                </div>
+                <div class="form-item">
+                   <p class="form-label">
+                    <span class="norequird">お電話番号</span>
+                   </p>
+                   <input type="tel" class="form-item-input" placeholder="例）000-0000-0000">
+                </div>
+                <div class="form-item">
+                    <p class="form-label">
+                        <span class="requird">※必須</span>メールアドレス
+                    </p>
+                    <input type="email" class="form-item-input" placeholder="例）reiwataro@gmail.com">
+                 </div>
+                 <div class="form-item">
+                    <p class="form-label">
+                        <span class="requird">※必須</span>お問い合わせ内容
+                    </p>
+                    <textarea class="form-textarea"></textarea>
+                 </div>
+                 <input type="submit" value="送信する" class="form-btn">
           </div>
+        </div>
+        <div class="note">
+        <span>※ポートフォリオ用にHTML/CSSのみでの作成しております。<br>大変恐れ入りますが、まだPHPでの実装を行っていないため送れません。</span></div>
+        <div class="email">
+          <a href="mailto:mitsuedesuga@gmail.com">メールアドレスはこちら</a>
         </div>
       </section>
       <!-- /contact -->
